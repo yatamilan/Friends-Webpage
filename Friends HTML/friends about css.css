@@ -1,0 +1,120 @@
+body{
+    background-image: url(back\ ground\ about\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: yellow;
+    font-family: 'bold', sans-serif;
+}
+p{
+    text-align: justify;
+    font-family: 'sans-serif';
+    font-size: 30px;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: #728FCE;
+    font-size: 30px;
+    font-family: 'Raleway';
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 50vw;
+    height: 50vmin;
+}
+img {
+    flex: 1;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    filter: grayscale(100%) brightness(75%);
+    transition: all .5s;
+}
+img:hover{
+    flex: 8;
+    filter: grayscale(0%) brightness(115%);
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.sarvo{
+    text-align: center;
+    color: #e86727;
+    font-size: 30px;
+    font-family: 'Raleway';
+}
+.suri{
+    text-align: center;
+    color: #ee0d0d;
+    font-size: 30px;
+    font-family: 'Raleway';
+}
+.reddy{
+    text-align: center;
+    color: #33860d;
+    font-size: 30px;
+    font-family: 'Raleway';
+}
+.dhanush{
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Raleway';
+}
+.tharun{
+    text-align: center;
+    color: #259b9d;
+    font-size: 30px;
+    font-family: 'Raleway';
+}
+.vijay{
+    text-align: center;
+    color: rgb(216, 47, 41);
+    font-size: 30px;
+    font-family: 'Raleway';
+}
+.seva{
+    text-align: center;
+    color: #50cc56;
+    font-size: 30px;
+    font-family: 'Raleway';
+}
+.jeni{
+    text-align: center;
+    color: #0066ff;
+    font-size: 30px;
+    font-family: 'Raleway';
+}
+.Jessi{
+    text-align: center;
+    color: #ad409d;
+    font-size: 30px;
+    font-family: 'Raleway';
+}
+hr {
+    color: rgb(255, 255, 255);
+    background-color: rgb(237, 179, 179);
+    height: 2px;
+}
+.para{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #333333;
+    text-align: justify;
+    font-family: Helvetica;
+}
+marquee{
+    .marquee {
+    width: 100%;
+    overflow: hidden;
+}
+}
